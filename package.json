@@ -1,0 +1,22 @@
+{
+  "name": "tsoa-sample2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "tsoa": "^2.3.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.0",
+    "typescript": "^3.2.2"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "gen-swagger": "tsoa swagger",
+    "gen-routes": "tsoa routes"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
